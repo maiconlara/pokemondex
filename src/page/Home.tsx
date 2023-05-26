@@ -25,7 +25,7 @@ export const Home = () => {
 
     const getData = () => {
         axios
-            .get('https://pokeapi.co/api/v2/pokemon?limit=385&offset=1')
+            .get('https://pokeapi.co/api/v2/pokemon?limit=385&offset=0')
             .then((res) => setValue(res.data.results))
             .catch((err) => console.log(err));
     };
