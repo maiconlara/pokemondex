@@ -9,6 +9,8 @@ Após clonar, pode se dar os comandos:
 ### `npm install`
 ### `npm start`
 
+###  `https://pokemondex-seven.vercel.app/`
+
 E o projeto estará rodando em localhost:3000
 São +- 400 cards, logo poderá demorar para apresentar todos.
 
