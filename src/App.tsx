@@ -2,15 +2,14 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import { Home } from './page/Home';
-import { ChakraProvider } from '@chakra-ui/react'
-
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
-  return (
-    <ChakraProvider>
-      <Home/ >
-    </ChakraProvider> 
-  );
+    return (
+        <ChakraProvider>
+            <Home />
+        </ChakraProvider>
+    );
 }
 
 export default App;
